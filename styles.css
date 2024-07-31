@@ -40,18 +40,14 @@ button {
     color: white;
     border-radius: 5px;
     position: relative;
-}
-
-#no-btn {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: inline-block;
 }
 
 #yes-btn {
-    position: absolute;
-    top: 170px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+}
+
+#no-btn {
+    position: relative;
+    margin-left: 10px;
 }
